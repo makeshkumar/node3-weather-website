@@ -1,5 +1,3 @@
-console.log("Js loaded");
-
 /* fetch('http://puzzle.mead.io/puzzle').then((res) => {
     res.json().then((data) => {
         console.log(data)
@@ -38,7 +36,7 @@ const fetchWeather = (location) => {
                 messageOne.textContent = data.error
             } else {
                 messageOne.textContent = data.address
-                messageTwo.textContent = data.temperature
+                messageTwo.textContent = data.weather
             }
         })
     })
